@@ -1,0 +1,79 @@
+:root {
+    font-size: 10;
+}
+
+html, body {
+    margin: 0;
+    max-width: 100%;
+    min-height: 100%;
+    background-color: #222222;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-size: 4rem;
+    color: white;
+    text-align: center;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.nav-button {
+    min-width: 17%;
+    color: #DDDDDD;
+    background: none;
+    font-size: 2rem;
+    border: none;
+
+    transition: all 100ms ease-in-out;
+}
+
+.nav-button:hover {
+    color: white;
+    cursor: pointer;
+    text-shadow: 0 1px 4px white;
+}
+
+#wishlist {
+    padding: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.wish {
+    margin: 1em 2em;
+    width: 15rem;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    transition: transform 100ms ease-in-out;
+    border-radius: 20px;
+    overflow: hidden
+}
+
+.wish:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.wish > .cover {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.wish > .cover > h3 {
+    font-size: 2rem;
+    padding: 1em 0;
+    margin: 0;
+    text-align: center;
+    color: white;
+}
