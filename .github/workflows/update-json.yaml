@@ -1,0 +1,23 @@
+name: Edit JSON file
+on:
+  push:
+    branches:
+      - main
+jobs:
+  edit-json-file:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fetch the JSON file
+        run: |
+          git fetch
+          cp data.json data.json.bak
+
+      - name: Edit the JSON file
+        run: |
+          sed -i 's/"Greeting": "Hello!"/"Greeting": "Goodbye!"/g' data.json
+
+      - name: Save the JSON file
+        run: |
+          git add data.json
+          git commit -m "Edited the JSON file"
+          git push
