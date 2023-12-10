@@ -50,30 +50,78 @@ nav {
     margin: 1em 2em;
     width: 15rem;
     height: 40vh;
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: transform 100ms ease-in-out;
+    transition-delay: 400ms;
+}
+
+.wish > .wish-front {
+    position: absolute;
+    width: 100%;
+    height: 100%;
     background-size: cover;
     background-position: center;
-    position: relative;
-    transition: transform 100ms ease-in-out;
-    border-radius: 20px;
-    overflow: hidden
+}
+
+.wish > .wish-back {
+    position: absolute;
+    width: calc(100% - 4em);
+    height: calc(100% - 2em);
+    background-image: linear-gradient(to top right, #282828, #111111);
+    color: white;
+    padding: 1em 2em;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.wish > .wish-back > p {
+    text-align: center;
+    width: 100%;
+    height: min-content;
+}
+
+.wish > * {
+    transition: transform 300ms ease-in-out;
+    backface-visibility: hidden;
 }
 
 .wish:hover {
     transform: scale(1.1);
+}
+
+.wish:hover > .wish-front {
+    transform: rotateY(180deg);
     cursor: pointer;
 }
 
-.wish > .cover {
+.wish:hover > .wish-cover {
+    transform: rotateY(180deg);
+    cursor: pointer;
+}
+
+.wish:hover > .wish-back {
+    transform: rotateY(0deg);
+    cursor: pointer;
+}
+
+.wish > .wish-cover {
     position: absolute;
     bottom: 0;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.6);
 }
 
-.wish > .cover > h3 {
+.wish > .wish-cover > h3 {
     font-size: 2rem;
     padding: 1em 0;
     margin: 0;
     text-align: center;
     color: white;
+}
+
+.wish-back {
+    transform: rotateY(180deg);
 }

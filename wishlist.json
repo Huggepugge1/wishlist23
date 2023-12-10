@@ -1,11 +1,96 @@
 {
+    "Jonas": {
+        "Ytterrock": {
+            "image": "https://media.viskan.com/v2/oscarjacobsonprod/large/Oscar-Jacobson_Tomas-Coat_Black_71705464_310_front.jpg",
+            "description": "En lång, varm och skön svart rock att ha på sig när det är kallt ute. Ser lite bättre ut än en jacka"
+        },
+        "AirPods": {
+            "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MME73?wid=572&hei=572&fmt=jpeg&qlt=95&.v=1632861342000",
+            "link": "https://www.apple.com/se/shop/product/MPNY3DN/A/airpods-tredje-generationen-med-lightning-laddningsetui?fnode=f1e13d9bd18d7aa899082d3f0d307cce6a5b8d16945f4e13ea79a543392c956680e89524687ef36174b1981aedfec88efb14ebe4586b727c354ecc3ef30dd6b652848e454db1b887102de84355a7d33e6662a56e718c10c8c4bbfc3a638e4b5e",
+            "description": "In-ear-hörlurar gjorda av Apple"
+        }
+    },
+    "Linda": {
+        "Systrarna": {
+            "image": "https://s2.adlibris.com/images/67130600/systrarna.jpg",
+            "link": "https://www.akademibokhandeln.se/bok/systrarna/9789100800765",
+            "description": "Skriven av Jonas Hassen Khemiri, Systrarna var nominerad till Augustpriset 2023"
+        },
+        "AirPods": {
+            "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MME73?wid=572&hei=572&fmt=jpeg&qlt=95&.v=1632861342000",
+            "link": "https://www.apple.com/se/shop/product/MPNY3DN/A/airpods-tredje-generationen-med-lightning-laddningsetui?fnode=f1e13d9bd18d7aa899082d3f0d307cce6a5b8d16945f4e13ea79a543392c956680e89524687ef36174b1981aedfec88efb14ebe4586b727c354ecc3ef30dd6b652848e454db1b887102de84355a7d33e6662a56e718c10c8c4bbfc3a638e4b5e",
+            "description": "In-ear-hörlurar gjorda av Apple"
+        }
+    },
     "Hugo": {
         "Byxor": {
-            "image": "https://02.cdn37.se/3Gq/images/2.130915/byxa-tellus-herr-dantrazite.jpeg"
+            "image": "https://02.cdn37.se/3Gq/images/2.130915/byxa-tellus-herr-dantrazite.jpeg",
+            "description": "Byxor täcker benen när man har på sig de"
         },
-        "RTX 4090": {
-            "image": "https://m.media-amazon.com/images/I/81KR0fO8WgL._AC_UF1000,1000_QL80_.jpg",
-            "link": "https://www.webhallen.com/se/product/353405-MSI-GeForce-RTX-4090-GAMING-X-TRIO-24GB?channable=00c0c7696400333533343035d1&gad_source=1"
+        "Bidrag till grafikkort": {
+            "image":"https://www.komplett.se/img/p/1024/1247751.jpg",
+            "description":"Grafikkort är magisk dyra så bidrag skulle vara uppskattat"
+        },
+        "Mobilskal": {
+            "image": "https://cdn.abicart.com/shop/ws76/70276/art76/h2016/157152016-origpic-d75cb9.jpg?max-width=720&max-height=720&quality=70&fmt=avif",
+            "link": "https://www.bjornberry.com/en/huawei/huawei-p20-lite/",
+            "description": "Wallet case för en huawei p20 lite"
+        },
+        "SF1000 ratt": {
+            "image": "https://media.power-cdn.net/images/h-573db75fa59340d05ee95f3a278c480d/products/1182001/1182001_6_600x600_t_g.webp",
+            "link": "https://www.power.se/gaming/vr-och-simulation/rattar-och-pedaler/thrustmaster-sf1000-wheel-add-on-gamingratt/p-1182001/store/?gad_source=1",
+            "description": "En F1 ratt för sim racing"
+        },
+        "Handbroms": {
+            "image": "https://www.komplett.se/img/p/800/1252860.jpg",
+            "link": "https://www.komplett.se/product/1252860/gaming/spelutrustning/spelkontroller/ratt-och-pedaler/moza-racing-hbp-handbroms",
+            "description": "En handbroms för sim racing"
+        },
+        "Växelspak": {
+            "image": "https://quickbutik.imgix.net/37159h/products/62ead04e91584.png?auto=format",
+            "link": "https://www.simracesweden.com/black-friday/vnm/vnm-vaxelspak",
+            "description": "En växelspak som kan agera både som manuell och sekventiell se för sim racing"
+        }
+    },
+    "Ebbe": {
+        "Processor": {
+            "image": "https://cdn.inet.se/product/688x386/5304697_2.png",
+            "link": "https://www.inet.se/produkt/5304697/amd-ryzen-5-5600-3-5-ghz-35mb?gad_source=1",
+            "description": "En processor (eller CPU) är en av delarna som bygger up en dator. Processorn måste använda sig av processorsocket AM4"
+        },
+        "Tangentbord": {
+            "image": "https://cdn.inet.se/product/688x386/6610629_2.png",
+            "link": "https://www.inet.se/kategori/262/tangentbord?filter=%7B%22propertyFilters%22%3A%7B%22bundleAny%22%3A%7B%22526%22%3A%5B2884%2C528%2C2478%2C2561%5D%2C%221069%22%3A%5B2449%2C2448%2C2885%5D%2C%222085%22%3A%5B2086%5D%7D%7D%7D",
+            "description": "Ett tangentbord med tactile switches (gör så att det känns bra att använda) samt 60%, 65% eller 75% (storlek). Inte vitt"
+        },
+        "Pengar till kläder": {
+            "image": "https://static-cdn.sr.se/images/83/20f9a309-7e4d-4ecb-a3fe-7e81b42cd2de.jpg?preset=1024x576",
+            "description": "Ebbe vill köpa sina kläder själv"
+        }
+    },
+    "Jakob": {
+        "Processor": {
+            "image": "https://cdn.inet.se/product/688x386/5304697_2.png",
+            "link": "https://www.inet.se/produkt/5303861/amd-ryzen-5-5600g-3-9-ghz-19mb",
+            "description": "En processor (eller CPU) är en av delarna som bygger up en dator. Processorn måste använda sig av processorsocket AM4 samt ha inbyggd grafik"
+        },
+        "Bidrag till grafikkort": {
+            "image":"https://www.komplett.se/img/p/1024/1247751.jpg",
+            "description":"Grafikkort är magisk dyra så bidrag skulle vara uppskattat"
+        },
+        "Marvel comics": {
+            "image":"https://cdn.kobo.com/book-images/3d9a3fe6-bc31-4537-8147-bdfbeafe35fb/1200/1200/False/marvel-comics-1000-collection.jpg",
+            "link": "https://seriemagasinet.se/produkt-kategori/marvel/",
+            "description": "Jakob gillar att läsa Marvel comics. Helst engelska men svenska funkar också"
+        },
+        "Byxor": {
+            "image": "https://02.cdn37.se/3Gq/images/2.130915/byxa-tellus-herr-dantrazite.jpeg",
+            "description": "Byxor täcker benen när man har på sig de"
+        },
+        "Dictators:No Peace Countryballs": {
+            "image": "https://cdn.akamai.steamstatic.com/steam/apps/1139890/header.jpg?t=1577876451",
+            "link": "https://store.steampowered.com/app/1139890/DictatorsNo_Peace_Countryballs/",
+            "description":"Strategidataspel där man ska ta över världen"
         }
     }
 }
